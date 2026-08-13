@@ -16,10 +16,11 @@ cursor.execute(table_info)
 
 ##insert some more records
 cursor.execute('''Insert Into STUDENT Values('krish','Data Science','A', 90)''')
-cursor.execute('''Insert Into STUDENT Values('John','Data Science','B', 100)''')
-cursor.execute('''Insert Into STUDENT Values('Mukesh','Data Science','A', 86)''')
-cursor.execute('''Insert Into STUDENT Values('Jacob','DEVOPS','A', 50)''')
-cursor.execute('''Insert Into STUDENT Values('Dipesh','DEVOPS','A', 35)''')
+cursor.execute('''Insert Into STUDENT Values('Mukesh','Data Science','B', 100)''')
+cursor.execute('''Insert Into STUDENT Values('Jacob','Data Analytics','B', 77)''')
+cursor.execute('''Insert Into STUDENT Values('Karthik','Data Analytics','B', 95)''')
+cursor.execute('''Insert Into STUDENT Values('Nirmal','GENAI','A', 99)''')
+cursor.execute('''Insert Into STUDENT Values('Sunil','DBMS','B', 98)''')
 
 ##Display all the records
 print("Te inserted records are")
